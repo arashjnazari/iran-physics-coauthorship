@@ -27,7 +27,7 @@ Each year was randomized separately, preserving the number of papers contributed
 
 ## Data and coverage
 
-The principal corpus contains 25,590 unique OpenAlex works with type `article`, primary field 31 (Physics and Astronomy), and at least one institution in Iran. The program verifies the field ID and name against each retrieved record, checks every page, and reconciles annual totals with unique work IDs. The broader topical sensitivity includes 42,345 unique works, including the primary corpus. Results in this package supersede an earlier population audit that used field 27 (Medicine).
+The principal corpus contains 25,590 unique OpenAlex works with type `article`, primary field 31 (Physics and Astronomy), and at least one institution in Iran. The program verifies the field ID and name against each retrieved record, checks every page, and reconciles annual totals with unique work IDs. The broader topical sensitivity includes 42,345 unique works, including the primary corpus.
 
 An author's own authorship must list a resolved Iranian institution and a usable author ID. Each undirected edge counts joint articles. A sole eligible author contributes a node and can have degree zero. The principal graph includes complete bylines with at most 50 total authors. In the first period 540 bylines were truncated, 16 complete bylines exceeded the cap, and 273 otherwise eligible papers had no usable domestic author ID. In the second period the corresponding counts were 401, 27 and 258. The primary corpus includes records marked as retracted or withdrawn. Removing 47 records with status-marked titles left the direction of the change in connected share intact. See the [30-record audit and case details](validation/sample_review.md).
 
