@@ -1,6 +1,6 @@
 """Test community structure against a year-stratified fixed-margin authorship null.
 
-Input: complete annual OpenAlex list pages from fetch_corpus.py.
+Input: complete annual OpenAlex list pages from stage3_full_network.py.
 Output: observed and randomized graph metrics, comparisons, and method metadata.
 Requires python-igraph (installable as igraph). No API credentials are needed.
 """
