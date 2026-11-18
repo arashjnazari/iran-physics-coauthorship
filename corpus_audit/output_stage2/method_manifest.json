@@ -1,0 +1,21 @@
+{
+  "retrieved_at_utc": "2026-11-18T07:58:52.798092+00:00",
+  "field_identity": {
+    "id": "https://openalex.org/fields/31",
+    "display_name": "Physics and Astronomy"
+  },
+  "source": "https://api.openalex.org",
+  "country": "IR",
+  "type": "article",
+  "seed": 42,
+  "sample_size_per_period": 100,
+  "queries": [
+    "https://api.openalex.org/fields/31?select=id%2Cdisplay_name",
+    "https://api.openalex.org/works?filter=institutions.country_code%3AIR%2Cprimary_topic.field.id%3A31%2Ctype%3Aarticle%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&group_by=publication_year",
+    "https://api.openalex.org/works?filter=institutions.country_code%3AIR%2Ctopics.field.id%3A31%2Ctype%3Aarticle%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&group_by=publication_year",
+    "https://api.openalex.org/works?filter=institutions.country_code%3AIR%2Cprimary_topic.field.id%3A31%2Ctype%3Aarticle%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2019-12-31&sample=100&seed=42&per_page=100&select=id%2Ctitle%2Cpublication_year%2Cprimary_topic%2Cauthorships%2Cis_authors_truncated",
+    "https://api.openalex.org/works?filter=institutions.country_code%3AIR%2Cprimary_topic.field.id%3A31%2Ctype%3Aarticle%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2024-12-31&sample=100&seed=42&per_page=100&select=id%2Ctitle%2Cpublication_year%2Cprimary_topic%2Cauthorships%2Cis_authors_truncated"
+  ],
+  "population_unit": "OpenAlex works, before team-size and author-ID exclusions.",
+  "sample_author_summary": "Means use only untruncated works with at most 50 returned authorships. Iran affiliation is determined on each authorship's institutions on that work."
+}

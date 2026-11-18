@@ -1,0 +1,39 @@
+{
+  "source": "https://api.openalex.org/works",
+  "supplement_first_utc": "2026-11-18T08:02:59.762422+00:00",
+  "supplement_last_utc": "2026-11-18T08:06:16.856788+00:00",
+  "supplement_queries": [
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2015",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2016",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2017",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2018",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2019",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2020",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2021",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2022",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2023",
+    "institutions.country_code:IR,topics.field.id:31,primary_topic.field.id:!31,type:article,publication_year:2024"
+  ],
+  "retrieval": "100 works/page, sorted by publication date; count and uniqueness checked by year.",
+  "unique_records": 42345,
+  "supplement_counts_by_year": {
+    "2015": 1542,
+    "2016": 1732,
+    "2017": 1798,
+    "2018": 1876,
+    "2019": 1986,
+    "2020": 2082,
+    "2021": 1765,
+    "2022": 1436,
+    "2023": 1303,
+    "2024": 1235
+  },
+  "paper_eligibility": "Untruncated byline with at most 50 total returned authorships and >=1 usable IR author ID.",
+  "affiliation": "An author has IR on at least one of their institutions on the work.",
+  "foreign_country_rule": "Exclude a work if any identified institution of any author has a non-IR country. Unidentified countries are retained.",
+  "unresolved_author_ids": [
+    "missing",
+    "A9999999999",
+    "A5317838346"
+  ]
+}

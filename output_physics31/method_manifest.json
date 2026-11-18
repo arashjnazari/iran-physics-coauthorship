@@ -1,0 +1,121 @@
+{
+  "analysis_at_utc": "2026-11-18T08:04:55.677438+00:00",
+  "source": "https://api.openalex.org/works",
+  "database": "OpenAlex default core",
+  "field_id": "https://openalex.org/fields/31",
+  "field_name": "Physics and Astronomy",
+  "primary_cutoff_total_authorships": 50,
+  "sensitivity_cutoffs": [
+    20,
+    50,
+    100
+  ],
+  "selected_fields": [
+    "id",
+    "doi",
+    "title",
+    "publication_year",
+    "type",
+    "primary_topic",
+    "authorships",
+    "is_authors_truncated"
+  ],
+  "years": [
+    {
+      "year": 2015,
+      "unique_works": 2340,
+      "pages": 24,
+      "retrieved_first_utc": "2026-11-18T07:57:40.324333+00:00",
+      "retrieved_last_utc": "2026-11-18T07:58:10.196452+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2015"
+    },
+    {
+      "year": 2016,
+      "unique_works": 2524,
+      "pages": 26,
+      "retrieved_first_utc": "2026-11-18T07:57:40.289235+00:00",
+      "retrieved_last_utc": "2026-11-18T07:58:32.229438+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2016"
+    },
+    {
+      "year": 2017,
+      "unique_works": 2794,
+      "pages": 28,
+      "retrieved_first_utc": "2026-11-18T07:57:40.262851+00:00",
+      "retrieved_last_utc": "2026-11-18T07:58:56.849898+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2017"
+    },
+    {
+      "year": 2018,
+      "unique_works": 3041,
+      "pages": 31,
+      "retrieved_first_utc": "2026-11-18T07:57:40.470035+00:00",
+      "retrieved_last_utc": "2026-11-18T07:59:24.424987+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2018"
+    },
+    {
+      "year": 2019,
+      "unique_works": 2884,
+      "pages": 29,
+      "retrieved_first_utc": "2026-11-18T07:57:40.531734+00:00",
+      "retrieved_last_utc": "2026-11-18T07:59:43.272110+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2019"
+    },
+    {
+      "year": 2020,
+      "unique_works": 2881,
+      "pages": 29,
+      "retrieved_first_utc": "2026-11-18T07:57:40.894741+00:00",
+      "retrieved_last_utc": "2026-11-18T08:00:09.392605+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2020"
+    },
+    {
+      "year": 2021,
+      "unique_works": 2587,
+      "pages": 26,
+      "retrieved_first_utc": "2026-11-18T07:57:40.376123+00:00",
+      "retrieved_last_utc": "2026-11-18T08:00:29.267020+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2021"
+    },
+    {
+      "year": 2022,
+      "unique_works": 2282,
+      "pages": 23,
+      "retrieved_first_utc": "2026-11-18T07:57:40.590688+00:00",
+      "retrieved_last_utc": "2026-11-18T08:00:45.498973+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2022"
+    },
+    {
+      "year": 2023,
+      "unique_works": 2124,
+      "pages": 22,
+      "retrieved_first_utc": "2026-11-18T07:57:47.321916+00:00",
+      "retrieved_last_utc": "2026-11-18T08:01:08.906521+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2023"
+    },
+    {
+      "year": 2024,
+      "unique_works": 2133,
+      "pages": 22,
+      "retrieved_first_utc": "2026-11-18T07:57:47.709955+00:00",
+      "retrieved_last_utc": "2026-11-18T08:01:31.136166+00:00",
+      "filter": "institutions.country_code:IR,primary_topic.field.id:31,type:article,publication_year:2024"
+    }
+  ],
+  "paging": "100 articles per numbered page within each year, publication_date:asc",
+  "nodes": "distinct eligible author IDs from each work, including isolates",
+  "excluded_author_ids": [
+    "A5317838346",
+    "A9999999999"
+  ],
+  "weights": "number of distinct shared articles in each period",
+  "community_method": "Louvain on the largest connected component, weight=weight, resolution=1.0",
+  "louvain_seeds_highest_q": [
+    42,
+    43,
+    44
+  ],
+  "python_version": "3.12.14",
+  "networkx_version": "3.4.2",
+  "igraph_version": "0.11.9"
+}

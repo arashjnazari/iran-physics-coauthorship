@@ -1,0 +1,57 @@
+{
+  "retrieved_at_utc": "2026-11-18T07:58:29.012217+00:00",
+  "query": "https://api.openalex.org/works?filter=institutions.country_code%3AIR%2Cprimary_topic.field.id%3A31%2Ctype%3Aarticle%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&group_by=publication_year",
+  "count": 25590,
+  "group_by": [
+    {
+      "key": "2018",
+      "key_display_name": "2018",
+      "count": 3041
+    },
+    {
+      "key": "2019",
+      "key_display_name": "2019",
+      "count": 2884
+    },
+    {
+      "key": "2020",
+      "key_display_name": "2020",
+      "count": 2881
+    },
+    {
+      "key": "2017",
+      "key_display_name": "2017",
+      "count": 2794
+    },
+    {
+      "key": "2021",
+      "key_display_name": "2021",
+      "count": 2587
+    },
+    {
+      "key": "2016",
+      "key_display_name": "2016",
+      "count": 2524
+    },
+    {
+      "key": "2015",
+      "key_display_name": "2015",
+      "count": 2340
+    },
+    {
+      "key": "2022",
+      "key_display_name": "2022",
+      "count": 2282
+    },
+    {
+      "key": "2024",
+      "key_display_name": "2024",
+      "count": 2133
+    },
+    {
+      "key": "2023",
+      "key_display_name": "2023",
+      "count": 2124
+    }
+  ]
+}

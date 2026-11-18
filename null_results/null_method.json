@@ -1,0 +1,31 @@
+{
+  "scope": "Iran-linked OpenAlex article; primary field 31; full listed authorships <=50; own IR institution and usable OpenAlex author ID; includes isolates",
+  "periods": [
+    "2015-2019",
+    "2020-2024"
+  ],
+  "projection": "edge weight = number of shared papers",
+  "input_sha256_filtered_canonical_incidence_by_period": {
+    "2015": "67a93da76180af0634de6df5538ed631c9591a379a1d92b3f89e7ebd76358d6d",
+    "2020": "d82713ebf338da598f95b2c088b21a743854ce82f55ed58f237ab38ec825c55a"
+  },
+  "null": "Within publication year, randomly pair papers without replacement each sweep, split their non-shared authors uniformly at random keeping sizes fixed. Each replicate starts from the observed matrix. Both annual author productivity and paper team sizes checked in every replicate.",
+  "curveball_reference": "https://doi.org/10.1038/ncomms5114",
+  "generated_states": "Finite trades approximate the fixed-margin reference distribution; the double-sweep runs are a mixing sensitivity and are excluded from null p values.",
+  "other_constraints": "Institutions, topics within field, collaborators and projected degrees are not held fixed. Every retained paper and domestic authorship count is fixed within year. Each randomized graph uses its own LCC, which may have a different size.",
+  "measure": "Weighted undirected modularity Q at resolution 1 on the largest connected component; report the best of three multilevel (Louvain) partitions, both observed and randomized. Community counts refer to the best partition. Heuristic optimization can yield different partitions.",
+  "seeds_louvain": [
+    42,
+    43,
+    44
+  ],
+  "seed_trade_base": 20261118,
+  "null_pairs": 99,
+  "sweeps": 12,
+  "diagnostic_double_sweep_pairs": 6,
+  "inference": "Upper-tail empirical rank for observed Q in each period, and two-sided (twice the smaller +1-corrected tail) for the signed between-period difference against independent matched-index randomized pairs. This conditions on observed yearly author/size margins, not a causal or temporal sampling model.",
+  "minimum_one_sided_p": 0.01,
+  "minimum_two_sided_p": 0.02,
+  "igraph_version": "0.11.9",
+  "python_version": "3.12.14"
+}

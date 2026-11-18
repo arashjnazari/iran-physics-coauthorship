@@ -1,0 +1,3 @@
+﻿period,primary_physics_population,any_physics_population,sampled_papers,sample_papers_over_50_returned,sample_papers_truncated,sample_papers_included_at_cap_50,mean_distinct_ir_authors_included,mean_distinct_all_authors_included,included_papers_no_identified_ir_author
+2015-2019,13583,22517,100,3,3,97,2.381,2.835,2
+2020-2024,12007,19828,100,4,4,96,2.417,3.031,1
